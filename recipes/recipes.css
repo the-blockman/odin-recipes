@@ -1,0 +1,26 @@
+body{
+  padding: 50px 32px;
+  background: #f2f2f2;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.8;
+}
+
+.wrap{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+p, li{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul li::marker{
+  color: #d54215;
+
+}
+
+ul, ol{
+  width: fit-content;
+  padding: 0;
+  list-style-position: inside;
+}
